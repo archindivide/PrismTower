@@ -1,0 +1,37 @@
++-------+-----+---------------------------------+
+|       |     |                                 |
+|       |  k3 |            +---------------+    |
+|       |r3   |            |               |    |
++-------+-- --+            |               |    |
+|       |  i1 +------------+               |    |
+|  k2      I  x1 h3                   B    |    |
+|r2     |r1   +------------+               |    |
++-------+--x2-+---------+  |               |    |
+|       |h1             |  |r8             |    |
+|       +-----+s+-----+ +--+--+-----+-- ---+    |
+|             | |     | x3 h2 |     |      |    |
+|       +-----+-+-----+ +---+ +--+  |      |    |
+|       |             | |        |  |      |    |
+|       |      i2       |    i3  |  |r9 E  |    |
+|       |r4           | | r7     |  +------+    |
+|       +--------+----+ ++-------+              |
+|                | k3    |                      |
+|                | r6| r5|                      |
++----------------+---+---+----------------------+
+
+s - secret room
+x - locked door
+I - start point
+E - exit(win) point
+k - key
+i - puzzle item
+B - boss room
+r - room (reference)
+h - hall (reference)
+
+i1 - small metal object with a hole in it
+i2 - a wooden handle
+i3 - a torch
+
+k3 - hidden, requires items to unlock
+

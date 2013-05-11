@@ -1,0 +1,68 @@
+Intro <r1>:
+You awake in blackness. Cold stone touches your face, you move to get up and 
+find that your muscles ache. You try to remember where you are and how you got
+here. Its warm and damp in this room, mustiness fills your nose. You remember
+chasing someone through a narrow corridor, but nothing more...
+
+	Look,listen,smell->[sense]:
+
+	There is blackness all around you. You can hear a drip of something to your
+	left. You can feel movement in the air towards your right.
+	
+	Leap->[Jump]:
+	You hit your head on the ceiling, it is quite low.
+	
+	Feel,Rub,Grab(if hasn't been touched)->[Touch] floor:
+	You feel a small hard object, possibly metal. There is a hole in the center
+	of it.
+	
+	Grab(if has been touched)->[Take] object:
+	You put the object in your pocket, you still aren't sure what it is.
+	
+	Go,Walk->[Move] left:
+	You enter the next room over, you feel water dripping all around you.
+	<r2>
+	
+	[Move] right:
+	You feel a door. Upon trying to open the door, you discover it is locked.
+	
+	[Use] [item] with [item]:
+	-variable responses for a lot of things possibly its own series of responses
+	in a 3d matrix [what][with what][where]
+
+Poison room <r2>:
+(maybe more room description)
+You carefully make your way to the left until you feel dripping, you are
+very thristy.
+
+	[Drink] water,liquid->[Poison]:
+	Your stomach knots and you fall over in pain. Visions swim before your eyes:
+	a woman leaning over you tears filling her eyes, a small child in your arms,
+	the light fading from a bloodied corpse at the end of a metal shaft. An old
+	voice speaks to you, "Weary traveler, will you lay down your sword?"
+
+		[Yes]:
+		"It is weighted down with years of battle (more stuff here)" GAME OVER
+	
+		[No]:
+		"I cannot let the demons of the past weigh me down, I must press on. There
+		is still so much left to be done."
+		You have escaped death this time, but the world is not always so forgiving.
+		Proceed with care traveler, for you have been weakened by the poison.
+		
+	[sense]:
+	You still can't see anything, but you feel the dripping from the ceiling. 
+	You try to get your bearings, but the floor is very slippery. After a few
+	seconds, you slip and fall. Something is poking you in the back.
+
+	[Touch] object:
+	
+	[Take] object:
+	
+
+key:
+() - notes
+[] - user commands and items
+-> - words belong to this collection
+<> - room identifier on map
+indentation represents grouping of area/situation commands
